@@ -242,3 +242,139 @@ footer{
     margin: 75px;
     text-decoration: none;
 }
+
+/* Responsive para iPhone 12 Pro (390px - 490px) */
+
+@media (max-width: 490px) {
+    .menuNav {
+        flex-direction: row;
+        gap: 10px;
+        height: auto;
+    }
+
+    .boton {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 50px;
+    }
+
+    .seccion1 {
+        width: 90%;
+        padding-top: 1px;
+    }
+
+    .seccion1 h1 {
+        font-size: 30px;
+    }
+
+    .seccion1 div {
+        font-size: 16px;
+    }
+
+    .seccion2 {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .seccion2 h2 {
+        font-size: 32px;
+    }
+
+    #flecha2 {
+        width: 200px;
+    }
+
+    .contenedorProyectos {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    #decoy {
+        width: 100%;
+        height: auto;
+    }
+
+    .tituloProyecto {
+        font-size: 20px;
+    }
+
+    .cajaProyectos h4 {
+        font-size: 16px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .logosFoooter i {
+        font-size: 30px;
+        margin: 20px;
+    }
+}
+
+/* Responsive para iPad Pro (500px - 1024px) */
+
+@media (min-width: 500px) and (max-width: 1024px) {
+    .menuNav {
+        gap: 100px;
+    }
+
+    .boton {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .logo {
+        width: 90px;
+        height: 60px;
+    }
+
+    .seccion1 {
+        width: 70%;
+        padding-top: 130px; 
+    }
+
+    .seccion1 h1 {
+        font-size: 35px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .seccion1 div {
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+    .seccion2 {
+        width: 85%;
+        margin: 40px;
+    }
+
+    .seccion2 h2 {
+        font-size: 34px;
+    }
+
+    #flecha2 {
+        width: 280px;
+    }
+
+    .contenedorProyectos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 30px;
+        padding: 50px;
+    }
+
+    #decoy {
+        width: 280px;
+        height: 280px;
+    }
+}
